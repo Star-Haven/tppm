@@ -1,0 +1,66 @@
+/*Styling of TPPM Main Page*/
+
+/*Introducing the TPPM Logo Text*/
+@font-face{
+    font-family:"TPPM-Normal";
+    src: url("./resources/sf-slapstick-comic.bold.ttf");
+}
+@font-face{
+    font-family:"TPPM-Upper";
+    src: url("./resources/sf-slapstick-comic.sc-bold.ttf");
+}
+body{
+    background-color: #8ab7ff;
+}
+.tppmlogo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1em;
+    
+}
+.navigation{
+    display:grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #0050d1;
+    
+    border-radius:20px;
+}
+.navitem{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius:20px;
+    text-decoration: none;
+}
+.navitem:hover{
+    background-color: #0243ab;
+}
+
+.navtext{
+    font-size: 2em;
+	
+}
+.navtext{
+    
+    text-align: center;
+    
+    font-family: "TPPM-Upper", sans-serif; 
+    background: linear-gradient(#29b6ff, #36e9e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#trbotrelnav{
+    grid-column: 4/5;
+}
+#twitchnav{
+    grid-column: 5/6;
+}
+#currenthostnav{
+    grid-column: 6/7;
+}
+/*SOMETHING GOES ON HERE*/
+
+
+
+
